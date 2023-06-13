@@ -1,0 +1,40 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.35.1.
+--
+-- see: https://github.com/sol/hpack
+
+name:           autodocodec-self-reference-issue
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/autodocodec-self-reference-issue#readme>
+homepage:       https://github.com/githubuser/autodocodec-self-reference-issue#readme
+bug-reports:    https://github.com/githubuser/autodocodec-self-reference-issue/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2023 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    CHANGELOG.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/autodocodec-self-reference-issue
+
+executable autodocodec-self-reference-issue-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_autodocodec_self_reference_issue
+  hs-source-dirs:
+      app
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -fdefer-typed-holes -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      autodocodec
+    , autodocodec-swagger2
+    , base >=4.7 && <5
+    , swagger2
+    , text
+    , unordered-containers
+  default-language: Haskell2010

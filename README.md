@@ -1,0 +1,1 @@
+# autodocodec-self-reference-issue
